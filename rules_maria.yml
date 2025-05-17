@@ -1,0 +1,79 @@
+
+version: "3.1"
+
+rules:
+
+- rule: Responder à intenção de abertura
+  steps:
+  - intent: abertura
+  - action: utter_abertura
+
+- rule: Reagir à zona de interesse
+  steps:
+  - intent: zona_interesse
+  - action: utter_zona_interesse
+
+- rule: Reagir à comparação
+  steps:
+  - intent: comparacao
+  - action: utter_comparacao
+
+- rule: Reagir à hesitação
+  steps:
+  - intent: hesitacao
+  - action: utter_hesitacao
+
+- rule: Reagir à insegurança
+  steps:
+  - intent: inseguranca
+  - action: utter_inseguranca
+
+- rule: Reagir à objeção sobre dinheiro
+  steps:
+  - intent: objeção_dinheiro
+  - action: utter_objecao_dinheiro
+
+- rule: Responder a pedidos de garantia
+  steps:
+  - intent: pedido_garantia
+  - action: utter_pedido_garantia
+
+- rule: Reagir a interesse avançado
+  steps:
+  - intent: interesse_avancado
+  - action: utter_interesse_avancado
+
+- rule: Reagir a silêncio
+  steps:
+  - intent: silencio
+  - action: utter_silencio
+
+- rule: Reagir a lead oculto
+  steps:
+  - intent: lead_oculto
+  - action: utter_lead_oculto
+
+- rule: Reagir à curiosidade
+  steps:
+  - intent: curiosidade
+  - action: utter_curiosidade
+
+- rule: Reagir a reações positivas
+  steps:
+  - intent: reacao_positiva
+  - action: utter_reacao_positiva
+
+- rule: Reagir a reações negativas
+  steps:
+  - intent: reacao_negativa
+  - action: utter_reacao_negativa
+
+- rule: Reagir a pedidos de agendamento
+  steps:
+  - intent: marcar_reuniao
+  - action: utter_marcar_reuniao
+
+- rule: Encerrar conversa
+  steps:
+  - intent: encerrar
+  - action: utter_encerrar

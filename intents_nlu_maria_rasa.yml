@@ -1,0 +1,124 @@
+
+version: "3.1"
+
+nlu:
+
+- intent: abertura
+  examples: |
+    - Olá
+    - Boa tarde
+    - Estou retornando o seu contacto
+    - Queria saber mais sobre a franquia
+    - Vi algo sobre a POPPYS
+
+- intent: zona_interesse
+  examples: |
+    - Tenho interesse em Lisboa
+    - Pretendo abrir na zona do Porto
+    - Estava a pensar em Braga
+    - Quero saber se Fátima ainda está disponível
+    - Tenho preferência por zonas com alto fluxo
+
+- intent: comparacao
+  examples: |
+    - Estou a avaliar outras opções
+    - Já vi outras franquias
+    - Quero comparar com outros investimentos
+    - Tenho uma proposta de uma concorrente
+    - Qual a diferença entre a POPPYS e as outras?
+
+- intent: hesitacao
+  examples: |
+    - Preciso de tempo para pensar
+    - Talvez depois
+    - Ainda estou a ponderar
+    - Não sei se agora é o momento
+    - Estou com dúvidas
+
+- intent: inseguranca
+  examples: |
+    - E se não der certo?
+    - Tenho medo de perder dinheiro
+    - Nunca tive negócio próprio
+    - Não tenho experiência
+    - E se a loja não faturar bem?
+
+- intent: objeção_dinheiro
+  examples: |
+    - Achei o valor um pouco alto
+    - Não tenho os 36 mil agora
+    - Consigo começar com menos?
+    - O investimento é muito elevado
+    - Tem desconto na taxa de franquia?
+
+- intent: pedido_garantia
+  examples: |
+    - Vocês garantem que vai dar certo?
+    - Há algum retorno garantido?
+    - Qual é a segurança do negócio?
+    - Tenho garantia de lucro?
+    - E se não atingir o previsto?
+
+- intent: interesse_avancado
+  examples: |
+    - Quero ver o contrato
+    - Já preenchi a ficha
+    - Estou pronto para avançar
+    - Vamos marcar a call
+    - Quero falar com o diretor
+
+- intent: silencio
+  examples: |
+    - [pausa longa]
+    - [não responde]
+    - [resposta evasiva]
+    - Não sei bem o que dizer
+    - Estou a ouvir...
+
+- intent: lead_oculto
+  examples: |
+    - Eu conheço bem o mercado
+    - Já tive franquia
+    - Não quero revelar meus planos
+    - Estou apenas a estudar
+    - Só queria ver o que é
+
+- intent: curiosidade
+  examples: |
+    - Como é o cardápio?
+    - Qual o lucro médio?
+    - Quanto fatura uma loja?
+    - Quais os modelos disponíveis?
+    - Quantas unidades já existem?
+
+- intent: reacao_positiva
+  examples: |
+    - Excelente!
+    - Gosto da proposta
+    - Parece promissor
+    - Gostei do conceito
+    - Interessante...
+
+- intent: reacao_negativa
+  examples: |
+    - Isso é complicado
+    - Não é bem o que esperava
+    - Não gostei do valor
+    - Estou decepcionado
+    - Acho que não é pra mim
+
+- intent: marcar_reuniao
+  examples: |
+    - Podemos agendar?
+    - Quero uma reunião amanhã
+    - Tenho disponibilidade à tarde
+    - Pode ser hoje à noite?
+    - Vamos agendar?
+
+- intent: encerrar
+  examples: |
+    - Obrigado pelo contato
+    - Fico por aqui
+    - Vou pensar e retorno
+    - Pode deixar que eu aviso
+    - Até breve

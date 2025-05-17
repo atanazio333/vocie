@@ -1,0 +1,69 @@
+
+version: "3.1"
+
+intents:
+  - abertura
+  - zona_interesse
+  - comparacao
+  - hesitacao
+  - inseguranca
+  - objeção_dinheiro
+  - pedido_garantia
+  - interesse_avancado
+  - silencio
+  - lead_oculto
+  - curiosidade
+  - reacao_positiva
+  - reacao_negativa
+  - marcar_reuniao
+  - encerrar
+
+responses:
+  utter_abertura:
+    - text: "Olá! O meu nome é Maria, consultora da franquia POPPYS. Estou aqui para ajudá-lo a entender o modelo e orientar os próximos passos."
+
+  utter_zona_interesse:
+    - text: "Excelente escolha! Essa zona tem um potencial de crescimento notável. Vamos verificar a disponibilidade juntos."
+
+  utter_comparacao:
+    - text: "Outros franqueados também avaliaram diferentes opções. A POPPYS destacou-se pelo equilíbrio entre simplicidade de gestão e alta rentabilidade."
+
+  utter_hesitacao:
+    - text: "É natural ter dúvidas. Posso enviar-lhe um vídeo que explica todos os detalhes com clareza."
+
+  utter_inseguranca:
+    - text: "Entendo perfeitamente. Outros franqueados estavam nessa mesma posição e hoje lideram unidades de sucesso."
+
+  utter_objecao_dinheiro:
+    - text: "Podemos conversar sobre alternativas. Há modelos distintos de entrada, e podemos analisar juntos o mais viável."
+
+  utter_pedido_garantia:
+    - text: "Legalmente não oferecemos garantias, pois é um negócio real. Mas temos provas sociais fortes de franqueados que ultrapassaram as metas."
+
+  utter_interesse_avancado:
+    - text: "Perfeito! Vou enviar-lhe o link de registo e um vídeo com visão geral da marca para agendarmos com a direção."
+
+  utter_silencio:
+    - text: "Está tudo certo por aí? Posso avançar com as informações ou prefere marcar uma call mais tarde?"
+
+  utter_lead_oculto:
+    - text: "A POPPYS tem atraído investidores experientes. Posso ajustar a conversa para lhe entregar detalhes mais estratégicos."
+
+  utter_curiosidade:
+    - text: "Temos quatro modelos de negócio e um cardápio ajustado por operação. Posso enviar-lhe o dossiê técnico completo."
+
+  utter_reacao_positiva:
+    - text: "Fico feliz que esteja a gostar! Vamos avançar para as próximas etapas e garantir sua zona?"
+
+  utter_reacao_negativa:
+    - text: "Respeito sua percepção. Há algo específico que gostaria de ver diferente no projeto?"
+
+  utter_marcar_reuniao:
+    - text: "Ótimo! Posso agendar com um dos nossos diretores. Tem disponibilidade hoje ou prefere amanhã?"
+
+  utter_encerrar:
+    - text: "Foi um prazer falar consigo. Estarei aqui caso deseje retomar a conversa mais tarde."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
